@@ -1,0 +1,268 @@
+
+
+a, 
+button{
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    font-style: normal;
+    color: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 1712px;
+    margin: 0 auto;
+    padding-bottom: 160px;
+}
+
+
+/* ================ NAVI ================*/
+.page-header{
+    height: 140px;
+}
+
+.header-container{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: space-between;
+}
+.navi-page{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+    max-width:1057px;
+}
+.logo{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+     color: #1B4037;
+}
+.hero-list{
+    display: flex;
+    flex-direction: column;
+    
+}
+.tel{
+    
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    color: #686464;
+}
+.menu-list{
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+  
+}
+
+.menu-link{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    color: #686464;
+}
+
+.address-list{
+    margin-left: auto;
+    display: flex;
+    column-gap: 31px;
+}
+
+.nav-btn{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+   margin: 0 auto;
+   padding: 20px 54px;
+   width: 250px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #FFF;
+    border-radius: 15px;
+    background: #57867B;
+}
+
+/* ================ /NAVI ================*/
+
+
+/* ================ HERO =================*/
+
+.hero-page {
+    height: 834px;
+    background-color: rgba(168, 206, 200, 0.33);
+   
+}
+
+.hero-container {
+    display: flex;
+    
+}
+.back-image{
+background-image: url("photo_2023-11-02_23-19-22 1.png");
+
+}
+
+.hero-text {
+        width: 876px;
+        height: 210px;
+    padding-top: 179px;
+        font-family: 'Cormorant Garamond';
+        
+        font-weight: 700;
+        font-size: 70px;
+        line-height: 70px;
+        color: #1B4037;
+    
+}
+
+.hero-paragraf {
+   
+        width: 755px;
+        height: 82px;
+        padding-top: 40px;
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 41px;
+        color: #484646;
+    
+}
+
+.hero-image {
+position: absolute;
+    left: 70%;
+    transform: translate(-50%, 11%);
+}
+
+/* ================ /HERO =================*/
+
+
+/*=============  CALCULATE PRICE ==============*/
+
+
+/*=============  /CALCULATE PRICE ==============*/
+
+/* ============  ABOUT US =================== */
+
+.about-us{
+    padding-top: 208px;
+    padding-bottom: 92px;
+    font-family: Cormorant Garamond;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+    color: #1B4037;
+}
+
+
+.about-us-list{
+    display: flex;
+    gap: 40px;
+}
+
+
+.info-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+
+.about-us-list-item{
+    display: flex;
+    padding: 40px;
+    gap: 20px;
+    flex-direction: column;
+    width: calc((100% - 72px) / 3);
+    border-radius: 25px;
+    background: #DFEBE4;
+}
+
+
+.icon-about-us{
+    position: absolute;
+    transform: translate(-6%, -100%);
+    fill:#FFFFFF;
+    width: 60px;
+    height: 60px; 
+    border-radius: 50%;
+    background-color: #57867B;;
+}
+
+
+.icon-about-us{
+    padding: 25px;
+}
+
+
+.about-us-name{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: #403F3F;
+}
+
+
+.about-us-list-item{
+    padding: 40px;       
+    gap: 20px;
+       
+}
+
+
+.about-us-text-1,
+.about-us-text-2,
+.about-us-text-3{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #686464;
+}
+
+/* ============  .ABOUT US =================== */
