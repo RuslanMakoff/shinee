@@ -40,7 +40,7 @@ img {
 .container {
     width: 1712px;
     margin: 0 auto;
-    padding-bottom: 160px;
+   
 }
 
 
@@ -184,7 +184,7 @@ position: absolute;
 /* ============  ABOUT US =================== */
 
 .about-us{
-    padding-top: 208px;
+   
     padding-bottom: 92px;
     font-family: Cormorant Garamond;
     font-size: 56px;
@@ -265,4 +265,20 @@ position: absolute;
     color: #686464;
 }
 
-/* ============  .ABOUT US =================== */
+/* ============  /ABOUT US =================== */
+
+/* ============  TYPES SERVISE =================== */
+
+
+.types-servis-list{
+
+}
+
+.types-servis-list-item{
+    
+}
+
+
+
+/* ============  /TYPES SERVISE =================== */
+
