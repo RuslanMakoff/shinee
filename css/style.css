@@ -275,7 +275,11 @@ position: absolute;
 }
 
 .types-servis-list-item{
-    
+    display: flex;
+    align-items: center;
+}
+.types-servis-img{
+    margin-right: 40px;
 }
 
 
