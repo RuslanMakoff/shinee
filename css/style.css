@@ -40,7 +40,11 @@ img {
 .container {
     width: 1712px;
     margin: 0 auto;
+    padding-bottom: 160px;
    
+}
+body{
+    background: rgba(255, 255, 247, 0.99);
 }
 
 
@@ -135,10 +139,7 @@ img {
     display: flex;
     
 }
-.back-image{
-background-image: url("photo_2023-11-02_23-19-22 1.png");
 
-}
 
 .hero-text {
         width: 876px;
@@ -168,9 +169,14 @@ background-image: url("photo_2023-11-02_23-19-22 1.png");
 
 .hero-image {
     
-position: absolute;
-    left: 70%;
-    transform: translate(-50%, 11%);
+/* position: absolute; */
+padding-top: 71px;
+display: block;
+    /* left: 70%; */
+    /* transform: translate(-50%, 11%); */
+    max-width: 100%;
+        height: auto;
+        background-image: url("photo_2023-11-02_23-19-22 1.png");
 }
 
 /* ================ /HERO =================*/
@@ -269,20 +275,186 @@ position: absolute;
 
 /* ============  TYPES SERVISE =================== */
 
-
-.types-servis-list{
-
-}
-
-.types-servis-list-item{
+.types-servis-container{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
+
+
+.types-servis-title{
+    display: flex;
+    flex-direction: column;
+}
+
+.types-servis-title-name{
+    
+    font-family: Cormorant Garamond;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+    color: #1B4037;
+}
+
+.types-servis-text{
+color: #1B4037;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.types-servis-btn{
+    padding: 20px 80px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 15px;
+    background: #57867B;
+    color: #FFFEFE;
+}
+
 .types-servis-img{
     margin-right: 40px;
 }
 
+.types-servis-list {
+    display: flex;
 
+    flex-direction: row;
+        flex-wrap: wrap;
+        gap: 40px;
+}
+
+
+.types-servis-list-item {
+
+    max-width: 735px;
+        padding: 50px;
+     
+        flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    
+    
+    border-radius: 20px;
+    box-shadow: -20px 20px 60px 0px rgba(138, 138, 81, 0.15);
+    background: #FFF;
+}
+
+.types-servis-name{
+    padding-bottom: 30px;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: normal;
+    color: #686464;
+}
+
+.types-servis-text {
+    width: 483px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #686464;
+}
+
+.types-container{
+    height: 540px;
+}
 
 /* ============  /TYPES SERVISE =================== */
+
+
+/* ============  TESTIMONIALS=================== */
+
+.testimonials-title{
+    padding-bottom: 70px;
+    font-family: Cormorant Garamond;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 80px;
+    color: #1B4037;
+}
+.testimonials-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testimonials-content-list{
+    margin-left: 105px;
+    margin-right: 105px;
+    display: flex;
+    gap: 40px;
+   
+}
+
+.testimonials-content-list-item{
+    
+    max-width: 375px;
+    padding: 50px 34px;
+    border-radius: 30px;
+    box-shadow: 0px 20px 60px 0px rgba(138, 138, 81, 0.15);
+    background: rgba(255, 255, 255, 0.60);
+}
+
+.uaser-icon{
+   display: inline;
+   padding-left: 128px;
+}
+
+.name-stars{
+    padding-top: 38px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.testimonials-username{
+    padding-bottom: 20px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+    color:#686464;
+}
+
+.testimonial-date{
+    padding-bottom: 40px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    color: #9F9999;
+}
+
+
+.testimonials-text{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #686464;
+}
+
+
+.scroll-btn{
+    width: 50px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+/* ============  /TESTIMONIALS=================== */
 
